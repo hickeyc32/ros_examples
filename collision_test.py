@@ -32,7 +32,7 @@ def callback2(pos):
     global pos2
     pos2=pos
 
-    if is_close_to(pos1.x,pos2.x): #is_close_to is continously called, and if the turtles are too close, they're
+    if is_close_to(pos1.x,pos2.x): #is_close_to is continously called, and if the turtles are too close, their velocity is updated
         velocity1.linear.x=0       #Change based on desired velocity in collision scenario
         velocity2.linear.x=0
 
