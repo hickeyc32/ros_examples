@@ -23,7 +23,7 @@ from cv_bridge import CvBridge, CvBridgeError
 
 angle=0
 bridge = CvBridge()
-#current_image=cv2.imread('/home/chris/Pictures/Upper_right_square.jpg',1)
+#current_image=cv2.imread('INSERT_ERROR_PIC',1) #In case of camera read failure, put a desired error picture path here
 x_current=5.544445
 y_current=5.544445
 
