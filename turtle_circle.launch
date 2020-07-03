@@ -1,0 +1,4 @@
+<launch>
+  <node name="control_script" pkg="test" type="turtle_circle.py" output="screen"/>
+  <node name="turtlesim_display" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+</launch>
