@@ -1,0 +1,5 @@
+<launch>
+  <node name="control_script" pkg="test" type="formation_test.py" output="screen"/>
+  <node name="camera_feed" pkg="cv_camera" type="cv_camera_node" output="screen"/>
+  <node name="turtlesim_display" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+</launch>
